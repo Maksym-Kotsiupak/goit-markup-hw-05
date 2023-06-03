@@ -856,7 +856,6 @@ ul{
     line-height: 1.2;
     transition: box-shadow 250ms var(--cubic);
 }
-
 .overlay-text {
     position: absolute;
     top: 0;
@@ -875,8 +874,8 @@ ul{
     transition: transform 250ms var(--cubic);
 }
 
-.portfolio-card:hover .overlay-text,
-.portfolio-card:focus .overlay-text {
+.portfolio:hover .overlay-text,
+.portfolio:focus .overlay-text {
     transform: translatey(0);
 }
 .portfolio-card:hover,
