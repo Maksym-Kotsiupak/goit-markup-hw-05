@@ -94,7 +94,9 @@ ul{
 }
 
 
-
+.menu{
+    transition: transform 250ms var(--cubic);
+}
 
 
 
