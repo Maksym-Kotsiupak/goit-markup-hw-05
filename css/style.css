@@ -70,6 +70,28 @@ ul{
     padding: 24px 0;
     font-family: 'Roboto', sans-serif;
 }
+.text-nav-activ {
+    position: relative;
+    color: #404bbf;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    transition: color 250ms var(--cubic);
+}
+
+.text-nav-activ::after {
+    position: absolute;
+    display: flex;
+    content: '';
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 4px;
+    background-color:#404bbf;
+    border-radius: 2px;
+}
 
 
 
@@ -343,6 +365,7 @@ button {
     padding: 12px 24px;
     text-align: center;
     border: 1px solid #e7e9fc;
+    transition: color 250ms var(--cubic), background-color 250ms var(--cubic), border-color 250ms var(--cubic), box-shadow 250ms var(--cubic);
 }
 .button-portf:hover,
 .button-portf:focus {
@@ -373,6 +396,7 @@ button {
             cursor: pointer;
             margin-left: auto;
             margin-right: auto;
+            transition: background-color 250ms var(--cubic);
 }
 .button-hero:hover,
 .button-hero:focus{
@@ -521,6 +545,10 @@ align-items: center;
 }
 .portfolio{
     display: block;
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        transition: box-shadow 250ms var(--cubic);
 }
 
 
@@ -608,6 +636,7 @@ width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 250ms var(--cubic);
 }
 .social:hover,
 .social:focus {
@@ -667,6 +696,7 @@ ul{
         height: 100%;
         border: 1px solid #8e8f99;
         border-radius: 4px;
+        transition: border-color 250ms var(--cubic), color 250ms var(--cubic);
 }
 
 .customers-link:hover,
@@ -721,6 +751,7 @@ ul{
         border-radius: 50%;
         justify-content: center;
         align-items: center;
+        transition: background-color 250ms var(--cubic);
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
